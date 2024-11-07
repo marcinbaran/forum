@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel Administratora</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('img.png') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         body {
             background-color: #f8f9fa;
         }
+
         .sidebar {
             background-color: #343a40;
             height: 100vh;
         }
+
         .sidebar a {
             color: #ffffff;
         }
+
         .sidebar a:hover {
             background-color: #495057;
         }
+
         .content {
             padding: 20px;
         }
+
         .card {
             border: none;
             border-radius: 10px;
